@@ -18,7 +18,7 @@ pipeline {
             steps{
                 script{
                     
-                sh 'docker build -t youngminds73/devops-integration .'
+                sh 'docker build -t kirti1111/devops-integration .'
                 }
             }
         }
@@ -30,7 +30,7 @@ pipeline {
 
 }
                    
-                    sh 'docker push youngminds73/devops-integration:latest'
+                    sh 'docker push kirti1111/devops-integration:latest'
                     //sh 'docker push youngminds73/devops-integration'
                 }
             }
