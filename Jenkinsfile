@@ -30,7 +30,7 @@ pipeline {
 
 }
                    
-                    sh 'docker push kirti1111/devops-integration:tagname'
+                    sh 'docker push youngminds73/devops-integration'
                     //sh 'docker push youngminds73/devops-integration'
                 }
             }
