@@ -1,5 +1,5 @@
-# vim /etc/sudoers
-# jenkins ALL=(ALL) NOPASSWD: ALL
+//# vim /etc/sudoers
+//# jenkins ALL=(ALL) NOPASSWD: ALL
 
 pipeline {
     agent any
